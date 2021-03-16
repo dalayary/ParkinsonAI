@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="popupTheme" parent="Theme.AppCompat.Light">
+
+        <item name="android:colorBackground">#605D5D</item>
+        <item name="android:textColor">@color/white</item>
+
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+
+    </style>
+
+
+    <style name="BarStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+
+        <item name="color">@color/white</item>
+    </style>
+
+</resources>

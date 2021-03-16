@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navdraw_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="PROFILE" />
+        <item
+            android:id="@+id/navdraw_home"
+            android:icon="@drawable/ic_home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/navdraw_result"
+            android:icon="@drawable/ic_result"
+            android:title="RESULT" />
+        <item
+            android:id="@+id/navdraw_hospitals"
+            android:icon="@drawable/ic_hosp"
+            android:title="HOSPITALS" />
+        <item
+            android:id="@+id/navdraw_settings"
+            android:icon="@drawable/ic_set"
+            android:title="SETTINGS" />
+    </group>
+</menu>

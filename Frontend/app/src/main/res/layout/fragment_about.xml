@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.ParkinsonAi.AppBarOverlay" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/grad"
+            app:popupTheme="@style/Theme.ParkinsonAi.PopupOverlay"
+            app:title="ABOUT"
+            app:titleMarginStart="115dp"
+            app:titleTextColor="@color/white" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <TextView
+        android:id="@+id/abt_mission_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coordinator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="THE MISSION"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/mission_txt"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/abt_mission_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="People should have the oppurtunity to check their health everytime and everywhere!"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/abt_exp_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mission_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="EXPERIENCE"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/exp_txt"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/abt_exp_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Parkinson AI Experiences is not your typical hopital visit. No need for waiting rooms nor making an appointment!"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/abt_steps_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exp_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="STEPS TO START"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/steps_txt"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/abt_steps_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="1. Press the Record Button to Start! \n
+2.Read the Vowels on the upper side of the Screen from 1 to 5 \n
+3. Stop recording after reading by pressing the button again and press submit!"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>
