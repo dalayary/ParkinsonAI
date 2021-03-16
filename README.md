@@ -1,2 +1,2 @@
-# Detecting Parkinson via AI 
-# Final Year Project at Brunel University London
+# Detecting Parkinson  AI 
+Final Year Project at Brunel University London 
